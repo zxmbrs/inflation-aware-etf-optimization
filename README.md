@@ -50,8 +50,6 @@ For each out-of-sample month, the model is fitted on the **preceding 60 months o
 
 Purchasing-power performance is computed by compounding exact monthly real returns:
 
-Purchasing-power performance is computed by compounding exact monthly real returns:
-
 $$
 r_{\mathrm{real},t} = \frac{1+r_{\mathrm{nominal},t}}{1+\pi_t}-1
 $$
