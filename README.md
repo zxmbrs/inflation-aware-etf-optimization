@@ -50,11 +50,13 @@ For each out-of-sample month, the model is fitted on the **preceding 60 months o
 
 Purchasing-power performance is computed by compounding exact monthly real returns:
 
-\[
-r_{\mathrm{real},t}=\frac{1+r_{\mathrm{nominal},t}}{1+\pi_t}-1.
-\]
+Purchasing-power performance is computed by compounding exact monthly real returns:
 
-Historical inflation-beating frequencies are calculated over overlapping 12-, 36-, and 60-month windows. These are descriptive frequencies within the observed sample, **not estimates of independent future success probabilities**.
+$$
+r_{\mathrm{real},t} = \frac{1+r_{\mathrm{nominal},t}}{1+\pi_t}-1
+$$
+
+Historical inflation-beating frequencies are calculated over overlapping 12-, 36-, and 60-month windows.
 
 Additional robustness analyses include:
 
